@@ -1,0 +1,15 @@
+.background {
+  background-color: beige;
+}
+
+.font {
+  font-family: 'Helvetica';
+}
+
+.colour {
+  background-color: red;
+}
+
+.border {
+  border: '1 px solid';
+}

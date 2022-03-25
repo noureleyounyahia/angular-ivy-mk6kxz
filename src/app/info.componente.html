@@ -1,0 +1,17 @@
+<table class="background">
+  <tr class="font">
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Temperature</th>
+  </tr>
+
+  <tr *ngFor="let person of people">
+    <td>{{info.name}}</td>
+    <td>{{info.surname}}</td>
+    <td
+      [ngClass]="{colour: person.temperature> 37, border: person.temperature>37}"
+    >
+      {{info.temperature}}
+    </td>
+  </tr>
+</table>
